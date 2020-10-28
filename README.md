@@ -1,2 +1,2 @@
 # CRUD-wiele-do-wielu-templ
-https://file-php.herokuapp.com/
+https://sebastian-pisula-grupa2.herokuapp.com/
