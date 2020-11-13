@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+    "n h"
+    "n m";
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 30vh 70vh;
+}
+
+.nav {
+    background-color: lightgreen;
+    grid-area: n;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    background-color: lightskyblue;
+    grid-area: h;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: limegreen;
+    grid-area: m;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.komorka {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.github {
+    width: 150px;
+    height: 150px;
+}
+
+a, a:visited, a:hover, a:focus {
+    text-decoration: none;
+    color: black;
+}
