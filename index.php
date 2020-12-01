@@ -13,7 +13,7 @@
 <body>
 
     <header class="header">
-
+    <a href="index.html">Egzamin EE.09</a>
     <?php
         if(isset($_SESSION['logowanie'])){
             echo("<h1>ZALOGOWANO</h1>
