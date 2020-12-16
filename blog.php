@@ -11,7 +11,7 @@
 <div class="name">
 <h1>Sebastian Pisula gr 2 blog<h1>
 </div>
-<div class="posty"></div>
+<div class="posty">
     <?php
         $servername = "remotemysql.com";
         $username = "w6woVkHv46";
