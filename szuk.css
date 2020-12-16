@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.szukaj{
+    height: auto;
+    width: auto;
+    background: lightseagreen;
+}
